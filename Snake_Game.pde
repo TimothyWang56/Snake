@@ -74,7 +74,7 @@ void draw(){
   if(screenState == 2){
     background(255);
     textSize(32);
-    text("GAME OVER! YOU'RE SCORE WAS " + score + "!", 130, 270);
+    text("GAME OVER! YOUR SCORE WAS " + score + "!", 130, 270);
     text("Click To Play Again!", 245, 330);
     checkClick();
   }
